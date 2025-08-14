@@ -1,0 +1,21 @@
+<svg width="200" height="80" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Truck silhouette -->
+  <path d="M35 25 L55 25 L60 35 L60 45 L35 45 Z" fill="#3a3a3a"/>
+  <rect x="25" y="35" width="35" height="15" fill="#3a3a3a"/>
+  <circle cx="35" cy="52" r="5" fill="#2a2a2a"/>
+  <circle cx="50" cy="52" r="5" fill="#2a2a2a"/>
+  
+  <!-- Green G with road -->
+  <g transform="translate(65, 20)">
+    <!-- G letter -->
+    <path d="M35 5 Q15 5 15 20 L15 25 Q15 40 35 40 L35 35 Q25 35 25 25 L25 20 Q25 10 35 10 L45 10 L45 15 L30 15 L30 20 L50 20 L50 5 Z" fill="#00a651"/>
+    
+    <!-- Road swoosh -->
+    <path d="M10 35 Q20 38 30 35 Q40 32 50 35" stroke="#2a2a2a" stroke-width="3" fill="none"/>
+    <path d="M10 38 Q20 41 30 38 Q40 35 50 38" stroke="#666" stroke-width="1" stroke-dasharray="3,2" fill="none" opacity="0.6"/>
+  </g>
+  
+  <!-- TrucksG text -->
+  <text x="20" y="70" font-family="Arial Black, sans-serif" font-size="22" font-weight="900" fill="#3a3a3a">Trucks</text>
+  <text x="130" y="70" font-family="Arial Black, sans-serif" font-size="22" font-weight="900" fill="#00a651">G</text>
+</svg>
